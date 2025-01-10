@@ -13,10 +13,7 @@ jobs:
     - uses: actions/setup-node@v4
     
   TestEcho:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Show Output
-        run: echo 'here'
+        uses: JamesHoOHYA/test/.github/workflows/main_2.yml@main
   
 
   
