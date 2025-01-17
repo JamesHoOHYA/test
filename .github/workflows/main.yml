@@ -11,9 +11,6 @@ jobs:
     
     steps:
     - uses: actions/setup-node@v4
-    
-  TestEcho:
-        uses: JamesHoOHYA/test/.github/workflows/main_2.yml@main
   
 
   
