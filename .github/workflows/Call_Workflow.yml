@@ -3,7 +3,6 @@ on:
   push:
     branches:
     - main
-d
 #井字號是用來備註
 jobs:  #下面開始定義「job 任務」
   Echo-Something: #job名稱（不允許空格)，job 底下需要 runs-on 或 uses（用別人的workflow）
