@@ -16,7 +16,7 @@ jobs:  #下面開始定義「job 任務」
         run: echo "hello" #以作業系統環境執行命令，echo是印出指定文字內容
         
   Call-Other-Worflow:     
-      uses: JamesHoOHYA/test/.github/workflows/main.yml@main
+      uses: JamesHoOHYA/test/.github/workflows/Call_Workflow.yml@main
       with:
         To_Print_Content: "input something"
       #引用外部workflow的格式 
